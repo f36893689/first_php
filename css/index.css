@@ -1,0 +1,44 @@
+body{
+    background-image: url(../img/background.jpg);
+    margin:0;
+    height: 720px;
+}
+
+.left{
+    width:500px;
+    height:700px;
+}
+
+.right{
+    position: absolute;
+    left:786px;
+    top:0px;
+}
+
+.left>img{
+   
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    
+}
+.right>img{
+    
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.left>img:hover{
+    opacity: 1.0;
+ transition: opacity .55s ease-in-out;
+ -moz-transition: opacity .55s ease-in-out;
+ -webkit-transition: opacity .55s ease-in-out;
+}
+.right>img:hover{
+    opacity: 1.0;
+ transition: opacity .55s ease-in-out;
+ -moz-transition: opacity .55s ease-in-out;
+ -webkit-transition: opacity .55s ease-in-out;
+}
